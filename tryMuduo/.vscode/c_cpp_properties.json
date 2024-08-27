@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
+
+// gcc  -I头文件搜索路径 -L库文件搜索路径   自定义路径可以在includePath中添加
+// /usr/include和/usr/local/include  /usr/lib和/usr/local/lib 中的不需要另外加
